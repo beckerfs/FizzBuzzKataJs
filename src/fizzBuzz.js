@@ -1,3 +1,6 @@
 export function fizzBuzzConvertNumber(numberToConvert) {
-  return `${numberToConvert}`;
+    if (numberToConvert % 3 === 0) {
+        return "Fizz";
+    }
+    return `${numberToConvert}`;
 }
