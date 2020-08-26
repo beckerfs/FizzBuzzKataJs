@@ -11,3 +11,9 @@ test.each([3, 6, 9, 12])(
     
     expect(fizzBuzzConvertNumber(numberToConvert)).toEqual("Fizz");
 });
+
+test.each([5, 10, 20, 25])(
+    'given %p (a number divisible by 5) as argument, returns "Buzz"', (numberToConvert) => {
+    
+    expect(fizzBuzzConvertNumber(numberToConvert)).toEqual("Buzz");
+});
