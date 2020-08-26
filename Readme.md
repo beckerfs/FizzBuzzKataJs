@@ -10,8 +10,7 @@ Write a program that returns the numbers from 1 to 100​
 You can use a TDD approach, or write tests when you've written some or all of the code.
 
 ### Additional information
-- This solution uses **Jest** as the testing framework.
-- Feel free to use Google as much or as little as you need.
+- This project uses **Jest** as the testing framework.
 - Feel free to ask questions.
 - We are interested in your thought process, so it would be great if you could talk about what you are doing
 and why you are doing it.
