@@ -10,3 +10,11 @@ export function fizzBuzzConvertNumber(numberToConvert) {
     }
     return `${numberToConvert}`;
 }
+
+export function convertNumbersTo100() {
+    let convertedNumbersTo100 = [];
+    for (let i = 1; i <= 100; i++) {
+        convertedNumbersTo100.push(fizzBuzzConvertNumber(i));
+    }
+    return convertedNumbersTo100.join();
+}
